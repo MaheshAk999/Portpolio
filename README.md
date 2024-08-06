@@ -1,4 +1,4 @@
-![Screenshot (230)](https://github.com/user-attachments/assets/2d74fb56-c033-4daa-a3a1-35910d765d4d)![Screenshot (229)](https://github.com/user-attachments/assets/4655c94b-7a49-4d10-ad9b-676a34a1a867)Not Including the Source Code of FUll stack web projects and here are the photos of Three projects of Portpolio,Jewellery Ecommerce and Knowledge Portal (Ongoing)
+Not Including the Source Code of FUll stack web projects and here are the photos of Three projects of Portpolio,Jewellery Ecommerce and Knowledge Portal (Ongoing)
 and remaining Projects I ve uploaded in the Github.
 
 ![Screenshot (214)](https://github.com/user-attachments/assets/ce283a51-1ad4-48c4-badf-1d4f36c26677)
