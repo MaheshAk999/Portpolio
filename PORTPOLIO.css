@@ -1,0 +1,157 @@
+body{
+    font-family:Arial;
+    box-sizing: content-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    color:black !important;
+    font-weight: 700;
+}
+.resume:hover{
+    background-color: white !important;
+}
+  .navbar{
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top:0;
+    z-index:10;
+    background-color: #ffffff;
+}
+.collapse a:hover{
+    color:blue !important;
+}
+.form-control:focus {
+    border-color: #ced4da; 
+    box-shadow: none; 
+    outline: none; 
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+@media screen and (min-width:20cm)
+{
+    .PhotoMain,.AboutMe,.Skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2cm;
+    }
+    .PhotoMain{
+        margin-top: 20% !important;
+    }
+    .AboutMe div:nth-child(2){
+        max-width:20cm;
+    }
+    .Skills div{
+        padding:1% 5% !important;
+        width: 15cm !important;
+    }
+    .contactform{
+        width:12cm;
+    }
+    .PhotoMain{
+        margin-top: 8% !important;
+    }
+}
+@media screen and (min-width:30cm)
+{
+    .nav-item {
+        margin:0% 20px;
+    }
+    .navbar-nav{
+        position: absolute;
+        right:0;
+        gap:20px;
+    }
+    td:nth-child(2){
+        position: relative;
+        bottom: 4px;        
+    }
+    
+    
+}
+
+.Skills h2::first-letter{
+    color:blue;
+    font-size: 40px;
+}
+.btn,input,textarea,.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+@media screen and (max-width:20cm){
+    .PhotoMain div:nth-child(2),.AboutMe div:nth-child(2){
+        margin-top: 1cm;
+
+    }
+    .PhotoMain img{
+        width:6cm !important;
+        height: 6cm !important;
+    }
+    .AboutMe img,.services img{
+        width:6cm !important;
+        height: 6cm !important;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .Skills div:nth-child(2){
+        margin-top:1cm;
+    }
+    .PhotoMain{
+        margin:10% 0% 20% !important;
+    }
+}
+@media screen and (max-width:30cm){
+    .table2ndonerow{
+        display: block;
+    }
+}
+@media screen and (max-width:15cm){
+    .offcanvas{
+        width:6cm !important;
+    }
+    #AboutMe{
+        margin:1cm 0cm 0cm !important;
+    }
+}
+.AboutMeh1::first-letter{
+    font-size: 45px;
+    color:red;
+}
+.PhotoMain div:nth-child(2) button,.services button,input,textarea,button{
+    border-radius: 0 !important;
+    font-weight: 700 !important;
+}
+td{
+    border:10px solid white;
+    padding:0px 10px;
+}
+
+.Skills div{
+    padding:1%;
+}
+.aboutsocialmedia img{
+    width:1cm !important;
+    height: 1cm !important;
+    margin:0px 7px;
+    cursor:pointer;
+}
+.offcanvas{
+    width:10cm;
+    height:10cm;
+    margin: auto 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+.offcanvas-header h3::first-letter{
+    color:red;
+    font-size: 35px;
+} 
+.offcanvas{
+    padding: 5px;
+}
